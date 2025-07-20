@@ -1,0 +1,168 @@
+
+.cache/
+cache/
+# 编辑器/IDE 生成的文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python字节码和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展
+*.so
+
+# 包分发文件
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+whenever
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller文件
+*.manifest
+*.spec
+
+# 安装日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 测试和覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 翻译文件
+*.mo
+*.pot
+
+# Django项目
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask项目
+instance/
+.webassets-cache
+
+# Scrapy项目
+.scrapy
+
+# Sphinx文档
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 依赖管理
+#Pipfile.lock  # 根据团队约定选择是否跟踪
+poetry.lock
+
+# Celery调度文件
+celerybeat-schedule
+
+# SageMath解析文件
+*.sage.py
+
+# 文档构建输出
+/site
+
+# 类型检查缓存
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython调试符号
+cython_debug/
+
+# Docker配置
+docker-compose.override.yml
+
+# 临时文件和日志
+*.bak
+*.tmp
+*.temp
+*.out
+*.err
+*.swp
+*.swo
+*.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 不需要的文档
+README_OLD.md
+readme.old
+*_backup.md
+*.bak.md
+
+# 智谱AI SDK临时文件
+zhipuai_tmp/
+    
+# Python包管理工具
+*.pyd
+__pypackages__/
+.pdm.toml pdm.lock
+.ruff_cache/
+
+# Node.js相关
+.turbo/
+.eslintcache
+.prettiercache
+.swc/
+
+# Rust相关
+.dockerignore
+*.tfstate *.tfstate.backup
+.env.*
